@@ -15,16 +15,6 @@
 		BF6C853E1B73DF1C00CB44F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6C853C1B73DF1C00CB44F5 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BF6C85441B73DF1C00CB44F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF6C85221B73DF1C00CB44F5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF6C85291B73DF1C00CB44F5;
-			remoteInfo = antidebugging;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		BF6C852A1B73DF1C00CB44F5 /* antidebugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = antidebugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6C852E1B73DF1C00CB44F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,18 +26,10 @@
 		BF6C85381B73DF1C00CB44F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF6C853A1B73DF1C00CB44F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF6C853D1B73DF1C00CB44F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BF6C85431B73DF1C00CB44F5 /* antidebuggingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = antidebuggingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF6C85271B73DF1C00CB44F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF6C85401B73DF1C00CB44F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				BF6C852A1B73DF1C00CB44F5 /* antidebugging.app */,
-				BF6C85431B73DF1C00CB44F5 /* antidebuggingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,24 +99,6 @@
 			productReference = BF6C852A1B73DF1C00CB44F5 /* antidebugging.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF6C85421B73DF1C00CB44F5 /* antidebuggingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF6C85501B73DF1C00CB44F5 /* Build configuration list for PBXNativeTarget "antidebuggingTests" */;
-			buildPhases = (
-				BF6C853F1B73DF1C00CB44F5 /* Sources */,
-				BF6C85401B73DF1C00CB44F5 /* Frameworks */,
-				BF6C85411B73DF1C00CB44F5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF6C85451B73DF1C00CB44F5 /* PBXTargetDependency */,
-			);
-			name = antidebuggingTests;
-			productName = antidebuggingTests;
-			productReference = BF6C85431B73DF1C00CB44F5 /* antidebuggingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,10 +110,7 @@
 				TargetAttributes = {
 					BF6C85291B73DF1C00CB44F5 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					BF6C85421B73DF1C00CB44F5 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = BF6C85291B73DF1C00CB44F5;
+						DevelopmentTeam = 63D2MWBE85;
 					};
 				};
 			};
@@ -168,7 +128,6 @@
 			projectRoot = "";
 			targets = (
 				BF6C85291B73DF1C00CB44F5 /* antidebugging */,
-				BF6C85421B73DF1C00CB44F5 /* antidebuggingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,13 +140,6 @@
 				BF6C85391B73DF1C00CB44F5 /* Main.storyboard in Resources */,
 				BF6C853E1B73DF1C00CB44F5 /* LaunchScreen.xib in Resources */,
 				BF6C853B1B73DF1C00CB44F5 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF6C85411B73DF1C00CB44F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,22 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF6C853F1B73DF1C00CB44F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BF6C85451B73DF1C00CB44F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF6C85291B73DF1C00CB44F5 /* antidebugging */;
-			targetProxy = BF6C85441B73DF1C00CB44F5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BF6C85371B73DF1C00CB44F5 /* Main.storyboard */ = {
@@ -328,10 +265,13 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = antidebugging/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -341,45 +281,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = antidebugging/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
-			};
-			name = Release;
-		};
-		BF6C85511B73DF1C00CB44F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = antidebuggingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antidebugging.app/antidebugging";
-			};
-			name = Debug;
-		};
-		BF6C85521B73DF1C00CB44F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = antidebuggingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antidebugging.app/antidebugging";
 			};
 			name = Release;
 		};
@@ -400,15 +309,6 @@
 			buildConfigurations = (
 				BF6C854E1B73DF1C00CB44F5 /* Debug */,
 				BF6C854F1B73DF1C00CB44F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF6C85501B73DF1C00CB44F5 /* Build configuration list for PBXNativeTarget "antidebuggingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF6C85511B73DF1C00CB44F5 /* Debug */,
-				BF6C85521B73DF1C00CB44F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1D279F9B-4B24-4825-9DE2-73364F48B9E4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>antidebugging</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BA4B5F180E10D1CCB31EA05247D3746F7E5813F9</key>
+		<string>https://github.com/vtky/ios-antidebugging.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>antidebugging.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BA4B5F180E10D1CCB31EA05247D3746F7E5813F9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vtky/ios-antidebugging.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BA4B5F180E10D1CCB31EA05247D3746F7E5813F9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA4B5F180E10D1CCB31EA05247D3746F7E5813F9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-antidebugging</string>
+		</dict>
+	</array>
+</dict>
+</plist>
